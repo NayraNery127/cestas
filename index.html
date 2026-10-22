@@ -1,4 +1,4 @@
-<title>Cesta do Cerrado</title>
+<title>Cesta Candanga</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap">
@@ -125,7 +125,7 @@ footer .wrap{padding-block:28px;display:flex;justify-content:space-between;gap:1
   <div class="wrap">
     <div class="logo">
       <svg width="34" height="34" viewBox="0 0 40 40" aria-hidden="true"><g fill="var(--roxo)"><circle cx="20" cy="11" r="6"/><circle cx="11" cy="18" r="6"/><circle cx="29" cy="18" r="6"/></g><circle cx="20" cy="17" r="4" fill="var(--amarelo)"/><path d="M8 24h24l-3 12H11z" fill="var(--amarelo)"/></svg>
-      Cesta do Cerrado
+      Cesta Candanga
     </div>
     <nav><a href="#vitrine">Cestas</a><a href="#monte">Monte a sua</a><a href="#corporativo">Empresas</a></nav>
   </div>
@@ -204,7 +204,7 @@ footer .wrap{padding-block:28px;display:flex;justify-content:space-between;gap:1
             <label class="campo">Seu nome<input id="nome" required></label>
             <label class="campo">Nome de quem recebe<input id="quem" required></label>
             <label class="campo full">Mensagem do cartão <small>(opcional, até 200 caracteres)</small><textarea id="cartao" rows="3" maxlength="200" placeholder="Feliz aniversário! Com amor, ..."></textarea></label>
-            <label class="check full" style="grid-column:1/-1"><input type="checkbox" id="foto"> Autorizo a Cesta do Cerrado a postar a foto da cesta nas redes, sem mostrar o cartão nem dados pessoais.</label>
+            <label class="check full" style="grid-column:1/-1"><input type="checkbox" id="foto"> Autorizo a Cesta Candanga a postar a foto da cesta nas redes, sem mostrar o cartão nem dados pessoais.</label>
           </div>
         </div>
       </div>
@@ -250,8 +250,8 @@ footer .wrap{padding-block:28px;display:flex;justify-content:space-between;gap:1
 
 <footer>
   <div class="wrap">
-    <span><b>Cesta do Cerrado</b> · Brasília, DF</span>
-    <span>WhatsApp (61) 99810-7372 · @cestadocerrado</span>
+    <span><b>Cesta Candanga</b> · Brasília, DF</span>
+    <span>WhatsApp (61) 99810-7372 · @cestacandanga</span>
   </div>
 </footer>
 
@@ -364,7 +364,7 @@ $("form").addEventListener("submit",e=>{
   $("erro").textContent="";
   const s = estado(); const [a,m,d] = $("data").value.split("-");
   const txt = [
-    "Olá! Quero fazer um pedido na Cesta do Cerrado:",
+    "Olá! Quero fazer um pedido na Cesta Candanga:",
     "",
     `🧺 ${qtd}x ${s.base.nome} (${brl(s.base.preco)})`,
     ...s.extras.map(x=>`   + ${x.nome} (${brl(x.preco)})`),
